@@ -2,8 +2,7 @@
 import Lookup from "@/app/data/Lookup";
 import { ArrowRight ,Link} from "lucide-react";
 import React, { useState } from "react";
-// import Lookup from "@/app/data/Lookup";
-// import LookupData from "@/app/data/Lookup"; // Rename Lookup to LookupData
+
 
 function Hero() {
     const [userInput , setUserInput]=useState();
@@ -20,11 +19,11 @@ function Hero() {
         <Link className="h-25 w-25"/>
       </div>
       </div>
-      {/* <div>
-  {LookupData?.SUGGESTIONS?.map((suggestion, index) => (
+      <div>
+  {LookupData?.SUGGSTIONS?.map((suggestion, index) => (
     <h2 key={index}>{suggestion}</h2>
   ))}
-</div> */}
+</div>
 
     </div>
   );
